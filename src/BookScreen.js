@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 const BookScreen = (props) => {
   return (
     <View style={styles.center}>
-      <Text >This is the about screen</Text>
+      <Text >This is the book screen</Text>
       <Product products={books} onPress={props.addItem} />
     </View>
   );
